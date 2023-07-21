@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "jamel-test"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-16"
+    "humanitec.com/appId": "jamel-test"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
